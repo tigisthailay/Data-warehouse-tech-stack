@@ -48,16 +48,14 @@ In Downloads – pNEUMA | open-traffic (epfl.ch) you can find a pNEUMA data: pNE
 ![](screenshots/1.png)
 
 #####  Generated Job Entity 
-##### #1
-![](images/tg.png)
+##### ELT vs ETL
+
+![](screenshots/2.png)
+![](screenshots/3.jpg)
 
 
 
-![](images/opp.png)
-
-#### Document Score
-
-
-![](images/eda.png)
+####  Contrbutor
+Tegisty Hailay
 
 ...
