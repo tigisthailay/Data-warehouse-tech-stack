@@ -3,14 +3,14 @@ import sys
 import os
 import dvc.api
 
-sys.path.append(os.path.abspath(os.path.join("./Scripts/")))
+sys.path.append(os.path.abspath(os.path.join("./scripts/")))
 
 
 class ReadFile():
     def dvc_get_data(self, path, version='v1'):
         data = []
         try:
-            repo = "C:/Users/user/Desktop/10Academy/Week-4/Prompt-Engineering_LLM"
+            repo = "C:/Users/user/Desktop/10Academy/Week-5/Data-warehouse-tech-stack"
             data_url = dvc.api.get_url(path=path, repo=repo, rev=version)
             data_url = str(data_url)[6:]
             with open(data_url, 'r') as f:
