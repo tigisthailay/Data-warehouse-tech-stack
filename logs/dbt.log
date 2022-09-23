@@ -1,0 +1,90 @@
+
+
+============================== 2022-09-23 06:03:32.081666 | 4333cbc4-10e2-4cc5-8605-bf4b43cf6e97 ==============================
+[0m06:03:32.081731 [info ] [MainThread]: Running with dbt=1.2.1
+[0m06:03:32.087637 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/tg13/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:03:32.088720 [debug] [MainThread]: Tracking: tracking
+[0m06:03:32.227833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf711eaca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf711eaa00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf711eaa30>]}
+[0m06:03:32.229650 [info ] [MainThread]: Creating dbt configuration folder at /home/tg13/.dbt
+[0m06:03:43.127269 [debug] [MainThread]: Starter project path: /home/tg13/Data-warehouse-tech-stack/myapp/lib/python3.8/site-packages/dbt/include/starter_project
+[0m06:04:09.050027 [info ] [MainThread]: Profile p written to /home/tg13/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m06:04:09.051664 [info ] [MainThread]: 
+Your new dbt project "p" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:04:09.065007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6fa6e460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6fa6e640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdf6fa6e1c0>]}
+[0m06:04:09.066447 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-23 06:11:29.389350 | 367ca926-9bc5-4988-9687-4467e70f5f67 ==============================
+[0m06:11:29.389411 [info ] [MainThread]: Running with dbt=1.2.1
+[0m06:11:29.391606 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/tg13/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:11:29.392415 [debug] [MainThread]: Tracking: tracking
+[0m06:11:29.503931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfaca220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfaca040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfaca0a0>]}
+[0m06:11:35.426339 [info ] [MainThread]: A project called p already exists here.
+[0m06:11:35.428232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfaca160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfac2c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc9bfac2be0>]}
+[0m06:11:35.429813 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-23 06:12:13.325122 | 6011703b-ecf3-4902-b354-403f3f7b72af ==============================
+[0m06:12:13.325178 [info ] [MainThread]: Running with dbt=1.2.1
+[0m06:12:13.335338 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/tg13/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:12:13.336384 [debug] [MainThread]: Tracking: tracking
+[0m06:12:13.392739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d0043190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d00430a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d003bd30>]}
+[0m06:12:20.192311 [debug] [MainThread]: Starter project path: /home/tg13/Data-warehouse-tech-stack/myapp/lib/python3.8/site-packages/dbt/include/starter_project
+[0m06:13:49.648310 [info ] [MainThread]: 
+Your new dbt project "d" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:13:49.650943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d00430a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d003bd30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6d003bb20>]}
+[0m06:13:49.652680 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-23 06:14:51.988001 | efaed90d-b5c0-4320-a04a-2418fb52e4c6 ==============================
+[0m06:14:51.988067 [info ] [MainThread]: Running with dbt=1.2.1
+[0m06:14:52.000025 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/tg13/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:14:52.001133 [debug] [MainThread]: Tracking: tracking
+[0m06:14:52.099800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b5e130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b5e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b5e070>]}
+[0m06:15:14.587952 [debug] [MainThread]: Starter project path: /home/tg13/Data-warehouse-tech-stack/myapp/lib/python3.8/site-packages/dbt/include/starter_project
+[0m06:15:18.528227 [info ] [MainThread]: 
+Your new dbt project "postgres_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:15:18.544227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b5e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b56ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f82e7b56bb0>]}
+[0m06:15:18.560779 [debug] [MainThread]: Flushing usage events

@@ -23,7 +23,7 @@ dag_exec = DAG(
 create_table = PostgresOperator(
     sql="sql/table_create.sql",
     task_id="createtable_task",
-    postgres_conn_id="dwh",
+    postgres_conssn_id="dwh",
     dag=dag_exec,
 )
 
