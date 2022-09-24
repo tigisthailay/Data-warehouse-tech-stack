@@ -45,7 +45,7 @@ In Downloads – pNEUMA | open-traffic (epfl.ch) you can find a pNEUMA data: pNE
 
 ##### Flow Diagram
 
-![](screenshots/1.png)
+![](screenshots/4.png)
 
 
 ## ELT vs ETL
@@ -54,8 +54,8 @@ In Downloads – pNEUMA | open-traffic (epfl.ch) you can find a pNEUMA data: pNE
 ![](screenshots/3.jpg)
 
 ### EDA
-![](screenshots/vicle-type.png)
-![](screenshots/distance.png)
+![](screenshots/6.ng)
+![](screenshots/7.ng)
 
 ####  Contrbutor
 Tegisty Hailay
