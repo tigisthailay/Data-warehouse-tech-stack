@@ -53,7 +53,9 @@ In Downloads – pNEUMA | open-traffic (epfl.ch) you can find a pNEUMA data: pNE
 ![](screenshots/2.png)
 ![](screenshots/3.jpg)
 
-
+### EDA
+![](screenshots/vicle-type.png)
+![](screenshots/distance.png)
 
 ####  Contrbutor
 Tegisty Hailay
