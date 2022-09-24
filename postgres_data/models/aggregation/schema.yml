@@ -3,16 +3,24 @@ version: 2
 sources:
   - name: Data Warehouse
     description: "data warehouse"
-    database: vehicle_db
+    database: traffic_db
     schema: public
     tables:
       - name: vehicle
-        description: "Vehicles table"
+        description: "traffic table"
         columns:
-          - name: id # required
+          - name: id 
             description: unique identifier for the vehicle
           - name: track_id
             description: id of the track
+          - name: speed
+            description: speed of the vehicle at the given time
+          - name: loan_acc
+            description: loan account of the vehicle
+          - name: lat_acc
+            description: latitude of the vehicle at the given time
+          - name: record_time
+            description: time of the clear record
           - name: vehicle_type
             description: type of the vehicle
           - name: traveled_d
@@ -23,12 +31,3 @@ sources:
             description: latitude of the vehicle
           - name: lon
             description: longitude of the vehicle
-          - name: speed
-            description: speed of the vehicle at the given time
-          - name: loan_acc
-            description: loan account of the vehicle
-          - name: lat_acc
-            description: latitude of the vehicle at the given time
-          - name: record_time
-            description: time of the clear
-            record

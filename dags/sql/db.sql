@@ -1,2 +1,2 @@
-CREATE DATABASE IF NOT EXISTS vehicle_db;
-use vehicle_db;
+CREATE DATABASE IF NOT EXISTS traffic_db;
+use traffic_db;

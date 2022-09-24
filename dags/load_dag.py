@@ -48,7 +48,7 @@ insert = PostgresOperator(
     postgres_conn_id="dwh",
     dag=dag_exec,
 # Setting up Dependencies
-create >> insert
+db >> create >> insert
 
 if __name__ == "__main__":
     dag_exec.cli()

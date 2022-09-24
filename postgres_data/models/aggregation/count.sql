@@ -4,9 +4,11 @@ with source as (
 ),
 destination as (
     select vehicle_type,
-        COUNT(*)
+        COUNT(track_id)
     from source
     group by vehicle_type
 )
 SELECT *
 FROM destination
+
+

@@ -1,6 +1,6 @@
 with source as (
     select *
-    from {{ source('vehicle_db', 'vehicle') }}
+    from {{ source('traffic_db', 'traffic_table') }}
 ),
 destination as (
     select id,
