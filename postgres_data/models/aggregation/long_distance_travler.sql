@@ -1,3 +1,8 @@
+/* this query retrives the
+top three long distance traveler track-id 
+and its distance from each vehicle_type.
+
+*/
 with source as (
     select *
     from {{ref('feature')}}
