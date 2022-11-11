@@ -1,4 +1,4 @@
-create table if not exists traffic_table (
+create table if not exists traffic_db.traffic_table (
     id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     track_id int not null,
     vehicle_type varchar(400) NOT null,
@@ -11,4 +11,3 @@ create table if not exists traffic_table (
     lat_acc float NOT null,
     record_time float NOT null
 );
-
