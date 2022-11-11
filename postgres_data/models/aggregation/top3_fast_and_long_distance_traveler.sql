@@ -1,3 +1,7 @@
+/* this query retrives the
+top three fastest and long distance travler track-id 
+and its average speed and its distance from each vehicle_type.
+*/
 
 with source as (
     select *
