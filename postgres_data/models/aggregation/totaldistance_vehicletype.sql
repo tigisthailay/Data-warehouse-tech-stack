@@ -1,6 +1,6 @@
 with source as (
     select *
-    from {{ref('vehicles_cast_feature')}}
+    from {{ref('feature')}}
 ),
 destination as (
     select 

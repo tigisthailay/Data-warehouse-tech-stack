@@ -6,7 +6,7 @@ sources:
     database: traffic_db
     schema: public
     tables:
-      - name: vehicle
+      - name: traffic_table
         description: "traffic table"
         columns:
           - name: id 
