@@ -1,3 +1,7 @@
+/* this query retrives the
+average speed traveled by tracks 
+under each vehicle_type.
+*/
 with source as (
     select *
     from {{ref('feature')}}

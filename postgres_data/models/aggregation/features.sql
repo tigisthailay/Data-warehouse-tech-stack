@@ -1,3 +1,6 @@
+/* this query retrives all informations 
+from traffic_table of traffic database */
+
 with source as (
     select *
     from {{ source('traffic_db', 'traffic_table') }}
