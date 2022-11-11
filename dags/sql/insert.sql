@@ -1,1 +1,1 @@
-LOAD DATA INFILE '/var/lib/mysql-files/locationClean.csv' INTO TABLE traffic_table FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+COPY traffic_db.traffic_table FROM './data/locationClean' WITH DELIMITER AS ';' NULL AS '\null' CSV HEADER;
