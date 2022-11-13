@@ -36,7 +36,7 @@ db = MySqlOperator(
 )
 
 create = PostgresOperator(
-    sql="sql/create.sql",
+    sql="sql/create_table.sql",
     task_id="createtable_task",
     postgres_conssn_id="dwh",
     dag=dag_exec,
@@ -47,6 +47,7 @@ insert = PostgresOperator(
     task_id="insertdata_task",
     postgres_conn_id="dwh",
     dag=dag_exec,
+)
 # Setting up Dependencies
 db >> create >> insert
 
