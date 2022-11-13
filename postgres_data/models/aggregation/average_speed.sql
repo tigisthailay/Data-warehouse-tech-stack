@@ -1,5 +1,5 @@
 /* this query retrives the
-average speed traveled by tracks 
+average of verage speed traveled by tracks 
 under each vehicle_type.
 */
 with source as (
