@@ -53,11 +53,13 @@ In Downloads – pNEUMA | open-traffic (epfl.ch) you can find a pNEUMA data: pNE
 ![](screenshots/2.png)
 ![](screenshots/3.jpg)
 
-### EDA
-![](screenshots/6.png)
-![](screenshots/7.png)
+***
+### Average distaance by each vehicle type and pie for Vehicle type
+![Alt text](Avg_distance_by_type.png?raw=true "Tech stack")
+![Alt text](pie_for_V.Type.png?raw=true "Tech stack")
+***
 
 ####  Contrbutor
 Tegisty Hailay
 
-...
+
